@@ -2,7 +2,12 @@ body {
   width:100%;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;}
-
+a{
+  color: black;
+}
+.bold_prix{
+  font-weight: 700px;
+}
   /*navigation links */
   .logo{
     height:3rem
@@ -11,14 +16,17 @@ body {
     margin: 20px 20px 20px 50px;
   }
   .set_margin{
-    margin-left: 50px;
+  padding-left: 50px;
+  }
+  .btn_size{
+    font-size: 13px;
   }
   #linkhebergement{
-    border-top: 0.5px solid blue;
-    color: blue;
+    border-top: 0.5px solid #0f69ff;
+    color: #0f69ff;
   }
   .linkactive{
-    color: blue;
+    color: #0f69ff;
   }
 .nav-link{
   font-size: 12px;
@@ -77,6 +85,9 @@ color: white;
 #iconfabtn{
   padding: 8px;
 }
+.btn_row{
+  margin-left: 60px;
+}
 /*icon styling */
 i {
   color: Dodgerblue; }
@@ -125,6 +136,13 @@ margin-right: 10px;
   .fa-info-circle{
     font-family: "Font Awesome 5 Free";
 font-weight: 600;
+  }
+  .btn-container{
+    display: flex;
+  }
+  .btn_text{
+    display: inline-block;
+    font-size: 13px;
   }
 /* first left image containers 6imgs*/
 
@@ -177,6 +195,13 @@ font-weight: 600;
   .iconbtn{
     visibility: visible;
   
+  }
+  
+  .btn-container{
+    display: flex;
+  }
+  .btn_text{
+    display: inline-block;
   }
   #firstLine {
     flex-wrap: wrap;
@@ -269,14 +294,16 @@ background-color: #F2F2F2;
 
   #last_nav{
    font-weight: bold;
-   color: blue;
+   color: #0f69ff;
     margin-left: 20px;
     margin-top: -50px;
+    margin-left: -10px;
   }
   #linkhebergement{
-    border-bottom: 0.5px solid blue;
-    color: blue;
+    border-bottom: 0.5px solid #0f69ff;
+    color: #0f69ff;
     border-top: none;
+    margin-right: 50px;
   }
   #linkboder{
     border-bottom: 0.5px solid #6c757d;
@@ -289,6 +316,16 @@ background-color: #F2F2F2;
     visibility: visible;
   
   }
+  .btn_row{
+    margin-left: 0px;
+    
+  }
+  .btn-container{
+    display: inherit;
+  }
+  .btn_text{
+    margin-left: 20px;
+  }
   .threeimgcard{
     margin-left: 90px;
   }
@@ -298,6 +335,7 @@ background-color: #F2F2F2;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
   }
   .container2{
    margin-top: 1em;
@@ -352,12 +390,14 @@ h6 {
 }
 
 .activityimg{
-  height:90%;object-fit: cover;width: 14rem;box-shadow:2px 4px 2px #dfdbdb
+  height:90%;object-fit: cover;width: 14rem;box-shadow:2px 4px 2px #dfdbdb;
 }
 #activityimg2{
   padding:0px;margin-left: 100px;
 }
-
+.activityMarseille{
+  box-shadow:2px 4px 2px #dfdbdb
+}
 .right-box {
   position: relative;
   padding-top: 30px; }
@@ -370,6 +410,7 @@ h6 {
 
   .full-image img {
     height: 90%;
+    box-shadow: 2px 4px 2px #dfdbdb;
   }
 
 

@@ -1,15 +1,37 @@
 body {
-  width:80%;
+  width:100%;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;}
-
+a{
+  color: black;
+}
+.bold_prix{
+  font-weight: 700px;
+}
   /*navigation links */
+  .logo{
+    height:3rem
+  }
+  .container-nav{
+    margin: 20px 20px 20px 50px;
+  }
+  .set_margin{
+  padding-left: 50px;
+  }
+  .btn_size{
+    font-size: 13px;
+  }
   #linkhebergement{
-    border-top: 0.5px solid blue;
+    border-top: 0.5px solid #0f69ff;
+    color: #0f69ff;
+  }
+  .linkactive{
+    color: #0f69ff;
   }
 .nav-link{
   font-size: 12px;
 }
+
 /*text under the logo */
 .firsttext{
   margin-top: 20px;
@@ -41,7 +63,20 @@ svg {
   #righttext{
     border-radius: 0px 10px 10px 0px;
   }
-
+.iconbtn{
+  visibility: hidden;
+  background-color: #0f69ff;
+  border: solid 1px #0f69ff;
+  border-radius: 10px;
+}
+.search_icon{
+color: white;
+}
+.righttext{
+  margin-left: -41px;
+  background-color: #0065FC;
+color: white;
+}
 /*button group */
 #linkfabtn{
   width: 90px;
@@ -49,6 +84,9 @@ svg {
 }
 #iconfabtn{
   padding: 8px;
+}
+.btn_row{
+  margin-left: 60px;
 }
 /*icon styling */
 i {
@@ -62,7 +100,7 @@ i {
   position: relative;
   margin-right: 1rem;
   background-color: #f2f2f2;
-  border:solid 2px#DEEBFF;
+ 
   border-radius: 30px 30px 30px 30px;
   
  }
@@ -91,25 +129,31 @@ i {
   width: 10px;
   align-items: center;
   padding: 6px;
+  font-family: "Font Awesome 5 Free";
+font-weight: 600;
+margin-right: 10px;
+  }
+  .fa-info-circle{
+    font-family: "Font Awesome 5 Free";
+font-weight: 600;
+  }
+  .btn-container{
+    display: flex;
+  }
+  .btn_text{
+    display: inline-block;
+    font-size: 13px;
   }
 /* first left image containers 6imgs*/
 
 .container1 {
   background-color: #F2F2F2;
-  margin-top: 10px;
+ 
   border-radius: 10px;
   padding-bottom: 40px;
-  flex-wrap: nowrap;
-  flex-direction:column;
-  justify-content: center;
+  
  }
- /*
- .container div{
-  width: 170px;
-  margin: 10px;
-  text-align: center;
- }
- */
+ 
  .text4{
    font-size: 12px;
    font-weight: bold;
@@ -145,11 +189,25 @@ i {
 
 @media(min-width:768px) and (max-width:992px) {
   
+  .rechechebtn{
+    visibility: hidden;
+  }
+  .iconbtn{
+    visibility: visible;
+  
+  }
+  
+  .btn-container{
+    display: flex;
+  }
+  .btn_text{
+    display: inline-block;
+  }
   #firstLine {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
-   
+    margin-bottom: 0.8em;
     justify-content: space-evenly;
     
   }
@@ -161,13 +219,8 @@ i {
     justify-content: space-evenly;
   }
   .container2{
-    display:flex;
-    width:85%;
-    margin:0 auto;
-    flex-direction: column;
-   
-    justify-content: center;
-    align-items: center;
+    margin-top: 1em;
+    
   }
   .container_leftactivity {
     flex-wrap: nowrap;
@@ -184,6 +237,9 @@ i {
     flex-direction: column;
    
      }
+     .activityMarseille img {
+      min-height: 250px;
+    }
 }
 
 img {
@@ -212,14 +268,19 @@ img {
 
 /* second right image containers plus populaires 3imgs*/
 .fa-chart-line{
-  margin-left:70px;
+  margin-left:300px;
 }
 .container2 {
-  background-color: #F2F2F2;
-margin-right: 0 auto;
+  
+background-color: #F2F2F2;
   border-radius: 10px;
-  margin-top: 20px;
-  padding-bottom: 40px; 
+  height: 100%;
+}
+.container2 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 .imglot1{
@@ -230,40 +291,80 @@ margin-right: 0 auto;
   
 }
 @media(max-width:767px) {
+
+  #last_nav{
+   font-weight: bold;
+   color: #0f69ff;
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-left: -10px;
+  }
+  #linkhebergement{
+    border-bottom: 0.5px solid #0f69ff;
+    color: #0f69ff;
+    border-top: none;
+    margin-right: 50px;
+  }
+  #linkboder{
+    border-bottom: 0.5px solid #6c757d;
+    color: #6c757d;
+  }
+  .rechechebtn{
+    visibility: hidden;
+  }
+  .iconbtn{
+    visibility: visible;
+  
+  }
+  .btn_row{
+    margin-left: 0px;
+    
+  }
+  .btn-container{
+    display: inherit;
+  }
+  .btn_text{
+    margin-left: 20px;
+  }
   .threeimgcard{
     margin-left: 90px;
   }
   .container1{
     flex-wrap: wrap;
+    padding-bottom: 0.8em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
   }
   .container2{
-    display:flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    align-items: center;
+   margin-top: 1em;
   }
+  
+  .row_change{
+    flex-direction: column-reverse;
+  }
+ 
   .activityimg{
     margin-left: 87px;
 
   }
   .card {
     border-radius: 10px;
-    width: 12rem;
+    margin-bottom: 0.8em;
+    width: 100%;
     box-shadow: 2px 4px 2px #dfdbdb;
     }
- .last_hebergementimg{
-   margin-left: 45px;
- }
+    .activityMarseille img {
+      min-height: 250px;
+    }
+ 
 }
 .rightimg{
   position: absolute;padding: 5px;   max-width: 50%;
 }
 .threeimgcard{
-  width: 14rem;height:8rem; margin-left: 2px;margin-top: 10px;;
+  width: 90%;height:8rem; margin-left: 2px;margin-top: 10px;;
 }
 .rightimgtext{
   font-size: 11px;text-align: right;
@@ -289,13 +390,13 @@ h6 {
 }
 
 .activityimg{
-  height:90%;object-fit: cover;width: 14rem;box-shadow:2px 4px 2px #dfdbdb
+  height:90%;object-fit: cover;width: 14rem;box-shadow:2px 4px 2px #dfdbdb;
 }
 #activityimg2{
   padding:0px;margin-left: 100px;
 }
-.container_RightActivity{
-  margin-left: 30px;
+.activityMarseille{
+  box-shadow:2px 4px 2px #dfdbdb
 }
 .right-box {
   position: relative;
@@ -307,7 +408,10 @@ h6 {
   border-radius: 10px !important; }
 
 
-
+  .full-image img {
+    height: 90%;
+    box-shadow: 2px 4px 2px #dfdbdb;
+  }
 
 
 /*footer section */
