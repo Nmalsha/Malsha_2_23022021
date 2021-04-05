@@ -23,6 +23,7 @@ body {
 .nav-link{
   font-size: 12px;
 }
+
 /*text under the logo */
 .firsttext{
   margin-top: 20px;
@@ -169,6 +170,7 @@ font-weight: 600;
 
 
 @media(min-width:768px) and (max-width:992px) {
+  
   .rechechebtn{
     visibility: hidden;
   }
@@ -265,11 +267,11 @@ background-color: #F2F2F2;
 }
 @media(max-width:767px) {
 
-  .navbar_sm{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: flex-start;
+  #last_nav{
+   font-weight: bold;
+   color: blue;
+    margin-left: 20px;
+    margin-top: -50px;
   }
   .rechechebtn{
     visibility: hidden;
