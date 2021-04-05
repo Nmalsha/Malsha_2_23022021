@@ -273,6 +273,15 @@ background-color: #F2F2F2;
     margin-left: 20px;
     margin-top: -50px;
   }
+  #linkhebergement{
+    border-bottom: 0.5px solid blue;
+    color: blue;
+    border-top: none;
+  }
+  #linkboder{
+    border-bottom: 0.5px solid #6c757d;
+    color: #6c757d;
+  }
   .rechechebtn{
     visibility: hidden;
   }
