@@ -276,6 +276,7 @@ background-color: #F2F2F2;
   width:22rem;height:10rem; margin-left: 2px;margin-top: 10px;
   background-color: white;
   display: flex;
+  border-radius: 10px ;
 }
 .img_square_wrapper{
   flex: 1;
@@ -337,10 +338,7 @@ justify-content: center;
   .btn_text{
     display: inline-block;
   }
-  .main_wrapper{
-    -ms-flex-direction: column;
-    flex-wrap: wrap;
-  }
+  
   #firstLine {
     flex-wrap: wrap;
     width: 100%;
@@ -363,23 +361,14 @@ justify-content: center;
     margin-top: 1em;
     width: 100%;
   }
-  .tainer_leftactivity {
-    flex-wrap: nowrap;
-  }
-  .container_RightActivity{
-    flex-wrap: nowrap;
-  }
-  .card {
-    border-radius: 10px;
-    width: 6rem;
-    box-shadow: 2px 4px 2px #dfdbdb;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
-   
-     }
-     .activityMarseille img {
-      min-height: 250px;
+ .container_activity{
+     flex-wrap: wrap;
+    }
+    .leftimgs{
+      width: 100%;
+    }
+    .rightimg_wrappe{
+      width: 100%;
     }
 }
 
@@ -477,26 +466,27 @@ header a {
     margin-left: 90px;
   }
   .container1{
-    flex-wrap: wrap;
-    padding-bottom: 0.8em;
+    width: 100%;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: white;
+    flex-wrap: wrap;
   }
+.img_card img {
+  width: 98%;
+}
   .container2{
    margin-top: 1em;
   }
-  
+  .container_activity {
+    flex-wrap: wrap;
+  }
   .row_change{
     flex-direction: column-reverse;
   }
  
-  .activityimg{
-    margin-left: 87px;
-
-  }
-  .card {
+  
+  .img_card {
     border-radius: 10px;
     margin-bottom: 0.8em;
     width: 100%;
@@ -519,11 +509,54 @@ header a {
 
  
   /* activity section */
+  .container_activity{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+  }
+  .leftimg_wrappe{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .rightimg_wrappe{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+  .full-image img{
+    height: 98%;
+box-shadow: 2px 4px 2px #dfdbdb;
+width: 70%;
+  }
+  .smallimg-wrappe{
+    width: 25%;
+
+  }
+  .full-image{
+    width: 50%;
+  }
+  .smallimg-wrappe {
+    width: 50%;
+  }
+.sideimg{
+  width: 90%;
+height: 10rem;
+}
+
+
 h6 {
   font-size: 11px;
   font-weight: bold;
   text-align: left; }
 .text6{
+  margin-top: 30px;
+  margin-left: 20px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -535,32 +568,41 @@ h6 {
   box-shadow:2px 4px 2px #dfdbdb
 }
 
-.activityimg{
-  height:90%;object-fit: cover;width: 14rem;box-shadow:2px 4px 2px #dfdbdb;
-}
+
 #activityimg2{
   padding:0px;margin-left: 100px;
 }
 .activityMarseille{
-  box-shadow:2px 4px 2px #dfdbdb
+  box-shadow:2px 4px 2px #dfdbdb;
+  display: grid;
+justify-items: center;
+height: 13rem;
+border-radius: 10px;
+
 }
-.right-box {
-  position: relative;
-  padding-top: 30px; }
+.img_space{
+  margin-bottom: 20px;
+}
+.img_title{
+  margin-top: 1px;
+}
 
-
-
-  .full-image img {
-    height: 90%;
-    box-shadow: 2px 4px 2px #dfdbdb;
-  }
-
+ 
 
 /*footer section */
-.container-footer {
-  margin-top: 30px;
-  background-color: #F2F2F2; }
 
+
+.column_wrappe{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #F2F2F2;
+  height: 50%;
+}
+.first_column{
+  display: flex;
+  flex-direction: column;
+}
 .text_link {
   font-size: 13px;
   font-weight: bold; }
