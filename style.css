@@ -31,7 +31,7 @@ a{
     width: 10%;
   }
   #linkhebergement{
-    padding-top: 30px;
+    padding-top: 60px;
   }
   #linkactive{
     font-weight: bold;
@@ -84,11 +84,11 @@ justify-content: center;
  }
 #text2 {
   opacity: 0.6;
-  font-size: 14px;
+  font-size: 15px;
  }
  .text3 {
   opacity: 0.6;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 15px;
   margin-bottom: 20px;
  }
@@ -107,6 +107,9 @@ color: black;
   /*serch bar */
  .form_control{
    border: none;
+   font-size: 13px;
+text-align: left;
+
  }
   #righttext{
     border-radius: 0px 10px 10px 0px;
@@ -115,6 +118,7 @@ color: black;
 color: white;
 width: 100px;
 border: none;
+font-size: 14px;
   }
 .iconbtn{
   visibility: hidden;
@@ -496,13 +500,14 @@ header a{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    border-bottom: none;
   }
  
   #linkboder{
 display: flex;
   }
   #linkhebergement{
-    padding-top: 30px;
+    padding-top: 60px;
   }
   ul{
     list-style-type: none;
@@ -576,7 +581,7 @@ justify-content: center;
     order: 3;
     margin-left: 0;
   width:auto;
-  border-bottom: 3px solid rgba(190,190,190,0.3);
+ 
   }
   .logo_box{
     margin-top: 0;
@@ -584,6 +589,7 @@ justify-content: center;
   .nav_wrappe{
     padding-top: 0;
     flex-wrap: wrap;
+    border-bottom: 3px solid rgba(190,190,190,0.3);
   }
   
   .nav-item{
@@ -645,7 +651,9 @@ justify-content: center;
     .three_img{
       width: 9rem;
     }
-    
+    .main_wrapper{
+      margin-left: 0;
+    }
     .container1{
       width: 100%;
       display: flex;
