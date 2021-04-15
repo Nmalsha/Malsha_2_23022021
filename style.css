@@ -375,13 +375,15 @@ display: grid;
     justify-content: space-evenly;
   }
   .ctivity_full{
-    height: 98%;
+    height: 93%;
 
-width: 70%;
+width: 92%;
   }
   
   .full-image{
-    width: 50%;
+    width: 40%;
+    box-shadow:2px 4px 2px #dfdbdb;
+    border-radius: 10px;
   }
   .smallimg-wrappe {
     width: 50%;
@@ -395,7 +397,7 @@ height: 10rem;
 h6 {
   font-size: 11px;
   font-weight: bold;
-  text-align: left; }
+   }
 .text6{
   margin-top: 30px;
   margin-left: 20px;
@@ -427,8 +429,11 @@ border-radius: 10px;
 }
 .img_title{
   margin-top: 1px;
+  margin-left: 15px;
 }
-
+#adjust_title{
+  margin-left: 15px;
+}
  
 
 /*footer section */
@@ -631,7 +636,7 @@ justify-content: center;
     }
     .threeimgcard{
     display: flex;
-    
+    width: 20rem;
     }
     .img_square_wrapper{
       display: block;
