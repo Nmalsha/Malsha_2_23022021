@@ -93,7 +93,7 @@ justify-content: center;
     margin-right: 40px;
   }
 .nav_link{
-  font-size: 14px;
+  font-size: 16px;
 }
 .nav-item:active{
 border-bottom: gris;
@@ -807,9 +807,9 @@ width: 48%;
       }
       .column_wrappe{
         flex-wrap: wrap;
-        justify-content: center;
+        
         flex-direction: column;
-        align-items: center;
+        align-items: left;
       }
    
   }
