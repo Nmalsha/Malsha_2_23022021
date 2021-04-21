@@ -179,7 +179,7 @@ i {
 
  .icon_filter{
   height:40px;
-  width: 36px;
+  width: 40px;
   display: flex;
   position: relative;
   margin-right: 1rem;
@@ -204,9 +204,7 @@ i {
   width: 190px;
 }
 
-  #icon_fami{
-    padding-left: 7px;
-  }
+  
   .fa-info-circle{
     height:10px;
   width: 10px;
