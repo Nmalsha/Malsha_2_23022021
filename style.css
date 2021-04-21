@@ -601,7 +601,16 @@ justify-content: center;
  .container_activity{
      flex-wrap: wrap;
     }
-    
+    .full-image {
+      width: 50%;
+    }
+    .img_title{
+      margin-left: 0;
+    }
+    h6{
+      font-size: 11px;
+      
+    }
     .rightimg_wrappe{
       width: 45%;
     }
