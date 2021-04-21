@@ -256,7 +256,7 @@ font-weight: 600;
    font-size: 1.4em;
    font-weight: bold;
    margin-left: 20px;
-   padding-top: 20px;
+  
  }
  .text5{
   font-size: 14px;
@@ -303,6 +303,7 @@ background-color: #F2F2F2;
   border-radius: 10px;
   height: 100%;
   margin-left: 20px;
+  padding-bottom: 40px;
 }
 .threeimg_wrappe {
   display: flex;
