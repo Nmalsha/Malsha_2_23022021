@@ -630,13 +630,14 @@ justify-content: center;
   width:auto;
  
   }
+  
   .logo_box{
     margin-top: 0;
   }
   .nav_wrappe{
     padding-top: 0;
     flex-wrap: wrap;
-    border-bottom: 3px solid rgba(190,190,190,0.3);
+    width: 100%;
     margin-left: 0;
     justify-content: center;
   }
@@ -676,7 +677,10 @@ justify-content: center;
   #linkhebergement{
     padding: 20px 50px 17px 50px;
   }
-  
+  #navbarSupportedContent{
+    border-bottom: 3px solid rgba(190,190,190,0.3);
+    width: 100%;
+  }
     #linkhebergement:hover{
      
       border-bottom: 2px solid #0f69ff;
@@ -719,7 +723,7 @@ justify-content: center;
     .link_last{
       display: inline-block;
 width: 48%;
-
+margin-left: 0;
     }
     .iconbtn{
       visibility: visible;
@@ -760,6 +764,11 @@ width: 48%;
       justify-content: center;
       background-color: white;
       flex-wrap: wrap;
+    }
+    .text5{
+      
+     width: 100%;
+     
     }
   .img_card img {
     width: 98%;
